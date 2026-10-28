@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables & Secrets (Code Guardian enforced)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*
+!.env.example
+credentials.json
+service_account.json
+id_rsa
+*.pem
+*.key
+
+# Databases
+*.sqlite3
+db.sqlite3
+db.sqlite3-journal
+
+# Django stuff
+*.log
+local_settings.py
+staticfiles/
+media/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
